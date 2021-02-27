@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.navMain {
+  width: 100vw;
+  height: 10vh;
+}
+
+.navMain > div:first-child {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navMain > div:nth-child(2) {
+  width: 100%;
+  height: 40%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.navMain a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}

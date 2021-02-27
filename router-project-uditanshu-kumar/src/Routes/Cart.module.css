@@ -1,0 +1,34 @@
+.mainContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer > div {
+  width: 50%;
+  min-height: 70px;
+  height: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainContainer > div > img {
+  width: 50px;
+}
+
+.mainContainer > div > div:nth-child(2) {
+  width: 30%;
+  text-align: left;
+}
+
+.mainContainer > div > div:nth-child(3) {
+  width: 20%;
+  text-align: left;
+}
